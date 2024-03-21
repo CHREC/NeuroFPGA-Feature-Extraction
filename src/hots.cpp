@@ -541,7 +541,7 @@ int main() {
     }
 
     // make sure this stream has enough data
-    if(eventsInStream < EVPS)
+    if(eventsInStream < EVPS - 1)
     {
         cout << "Error: Not enough events in stream..." << endl;
     }
