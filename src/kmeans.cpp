@@ -528,7 +528,7 @@ int readModel()
       break;
     case 1:
         // parse model file
-        //ann = cv::ml::ANN_MLP::load("/home/lkljucaric/Documents/hots/hots/models/perc/ann100-1000.model");
+        //ann = cv::ml::ANN_MLP::load("models/perc/ann100-1000.model");
         break;
     default:
         break;
