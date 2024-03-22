@@ -316,7 +316,7 @@ int main() {
         std::cout << "Platform name: " <<  platform.get_info<sycl::info::platform::name>().c_str() << std::endl;
         std::cout << "Device name: " <<  device.get_info<sycl::info::device::name>().c_str() << std::endl;
 
-        std::cout << "Executing HOTS..." << std::endl;
+        std::cout << "Executing k-means..." << std::endl;
         
         q_event = hots(device_queue, events_buf, modelCenters_buf, hist_buf);
        
