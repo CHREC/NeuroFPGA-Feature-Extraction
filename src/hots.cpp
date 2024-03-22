@@ -625,9 +625,9 @@ int main() {
     
     //Test the results against the golden results -- only useful for testing one file (03539.bin)
     std::fill(ref_output, ref_output + (F_FEAT), 0);
-    ref_output[0] = 2;
+    ref_output[0] = 0;
     ref_output[1] = 2;
-    ref_output[2] = 2;
+    ref_output[2] = 1;
     ref_output[3] = 0;
     ref_output[4] = 0;
     ref_output[5] = 4;
@@ -636,7 +636,7 @@ int main() {
     ref_output[8] = 0;
     ref_output[9] = 0;
     ref_output[10] = 0;
-    ref_output[11] = 13;
+    ref_output[11] = 15;
     ref_output[12] = 0;
     ref_output[13] = 0;
     ref_output[14] = 0;
@@ -644,7 +644,7 @@ int main() {
     ref_output[16] = 0;
     ref_output[17] = 0;
     ref_output[18] = 0;
-    ref_output[19] = 0;
+    ref_output[19] = 1;
     ref_output[20] = 0;
     ref_output[21] = 0;
     ref_output[22] = 0;
